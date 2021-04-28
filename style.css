@@ -1,0 +1,60 @@
+
+.heading {
+    color: rgb(10, 8, 8);
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 30%;
+    font-family: 'Lato', sans-serif;
+    font-style: underline;
+}
+
+.icon {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 60px;
+    width: 440px;
+    border-radius: NONE;
+    padding: 10px;
+}
+
+.icon:hover>.icon-btn {
+    background: transparent;
+}
+
+.icon-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn-connected {
+    color: green;
+}
+
+.icon-btn-disconnected {
+    color: red;
+}
+
+.icon-txt {
+    border: none;
+    background-color: white;
+    outline: none;
+    float: left;
+    padding-top: 10px;
+    color: black;
+    font-size: 16px;
+    transition: ease-in 0.4s;
+    line-height: 20px;
+    width: 340px;
+    font-family: 'Pangolin', cursive;
+}
+
+/* POP UP */
